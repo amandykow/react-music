@@ -1,0 +1,36 @@
+.track {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	p {
+		font-size: 16px;
+		font-weight: bold;
+	}
+}
+
+.trackLogo {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.preview {
+	width: 36px;
+	height: 36px;
+	border-radius: 10px;
+}
+
+.credits b {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.credits p {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.playing * {
+	color: #9340fe !important;
+}
